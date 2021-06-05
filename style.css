@@ -19,10 +19,10 @@ body {
   animation-name: aparecer;
 }
 
-.contenedorIndex {
+/* .contenedorIndex {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .titulo {
   padding-top: 10px;
@@ -110,6 +110,8 @@ li:hover {
 .subtitulo {
   font-family:'Montserrat', sans-serif;
   font-size: 1.5rem;
+  color: #00233a;
+  font-style: bold;
 }
 
 a {
