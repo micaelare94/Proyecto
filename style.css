@@ -10,28 +10,34 @@ html {
 body {
   background-color: #fff9df;
   min-height: 100vh;
+
   }
 
   /* Index */
+.animacionAparecer {
+  animation-duration: 1s;
+  animation-name: aparecer;
+}
 
 .contenedorIndex {
   display: flex;
   flex-direction: column;
 }
 
-.header {
+.titulo {
   padding-top: 10px;
   padding-bottom: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: rgb(245,174,119);
+  background: linear-gradient(183deg, rgba(245,174,119,0.9447129193474265) 4%, rgba(235,144,73,1) 59%, rgba(236,120,29,1) 96%);
+}
+
+.fuenteTitulo {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 70px;
   color: #00233a;
-  background: rgb(245,174,119);
-  background: linear-gradient(183deg, rgba(245,174,119,0.9447129193474265) 4%, rgba(235,144,73,1) 59%, rgba(236,120,29,1) 96%);
-  animation-duration: 1s;
-  animation-name: aparecer;
 }
 
 @keyframes aparecer {
@@ -101,7 +107,7 @@ li:hover {
   filter: brightness(110%);
 }
 
-h2 {
+.subtitulo {
   font-family:'Montserrat', sans-serif;
   font-size: 1.5rem;
 }
@@ -127,6 +133,10 @@ footer {
   position: relative;
   bottom: 0;
   left: 10px;
+
+}
+
+.fuente {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   font-size: 20px; 
 }
@@ -295,14 +305,14 @@ footer {
   }
 }
 
-p {
+/* p {
   padding-top: 10px;
   font-family:'Montserrat', sans-serif;
   font-size: 20px;
   font-weight: bold;
   text-align: justify;
   color: #00233a;
-}
+} */
 
 /* sitios */
 
