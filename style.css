@@ -54,20 +54,20 @@ ul{
   display: none;
 }
 
-input:checked  ~ ul{
+.inputMenu:checked  ~ ul{
   display:block;
 }
 
-input {
+.inputMenu {
   display: none;
 }
 
-input:focus {
+.inputMenu:focus {
   width: 200px;
   font-size: 24px;
 }
 
-label {
+.labelMenu {
   box-sizing: border-box;
   display: inline-block;
   width: 30px;
@@ -80,7 +80,7 @@ label {
   background-color: #1d7a82;
 }
 
-label:hover {
+.labelMenu:hover {
   background: #00233a;
   cursor: pointer;
 }
